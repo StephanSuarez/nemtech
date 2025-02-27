@@ -52,7 +52,7 @@ export default function Home() {
   ]
 
   return (
-    <main className="min-h-screen bg-black text-white relative overflow-hidden bg-black opacity-80">
+    <main className="min-h-screen bg-black text-white relative overflow-hidden bg-black">
       {/* Background video */}
       <video 
         className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-80"

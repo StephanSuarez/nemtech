@@ -21,7 +21,7 @@ export function HeroSection({
   return (
     <div className="relative h-[70vh] flex items-center">
       <div
-        className="absolute inset-0 z-0 bg-black opacity-70"
+        className="absolute inset-0 z-0"
         style={{
           backgroundImage: `url('${backgroundImage}')`,
           backgroundSize: "cover",

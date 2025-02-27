@@ -1,10 +1,14 @@
 import { Navbar } from "@/components/navbar"
 import { HeroSection } from "@/components/hero-section"
+import NuestrosAsesores from "./sections/advisrd"
 
 export default function ContactPage() {
   return (
     <main className="min-h-screen bg-black text-white">
       <Navbar />
+
+      {/* FORMULARIO DE CONTACTO */}
+      <NuestrosAsesores />
 
       <HeroSection
         title="CONTACTO"
@@ -12,7 +16,7 @@ export default function ContactPage() {
         buttonText="ENVIAR MENSAJE"
         showPlayButton={false}
       />
-
+      
       <div className="container mx-auto px-4 md:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="bg-white bg-opacity-5 p-8 rounded-lg">

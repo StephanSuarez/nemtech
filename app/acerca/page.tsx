@@ -8,13 +8,15 @@ import PoliticasCalidad from "./sections/politicas-calidad"
 import PoliticaAmbiental from "./sections/politicas-ambiental"
 import PoliticaServicio from "./sections/politicas-servicio"
 import Regulaciones from "./sections/regulations"
+import MisionVision from "./sections/mision-vision"
+
 
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-black text-white">
       <Navbar />
 
-      <div className="flex flex-row items-center justify-center">
+      <div className="flex flex-row items-center justify-center max-w-7xl mx-auto">
       <HeroSection
         title="¿QUE ES NEMTECH?"
         subtitle="En NEMTECH, creamos sistemas inteligentes con capacidad de respuesta en tiempo real, diseñados para detectar, prevenir y neutralizar amenazas antes de que sea demasiado tarde."
@@ -27,35 +29,7 @@ export default function AboutPage() {
       </div>
 
       {/* Misión y Visión */}
-        <section>
-        <div className="max-w-5xl mx-auto relative z-10">
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="space-y-8">
-              <div>
-                <h2 className="text-2xl md:text-3xl font-bold mb-4">Nuestra misión</h2>
-                <p className="text-gray-300">
-                  En NEMTECH diseñamos e implementamos sistemas de seguridad avanzada con capacidad de reacción. Nuestro
-                  compromiso es garantizar la protección de comunidades y entornos estratégicos, brindando soluciones
-                  innovadoras que transformen la seguridad en escenarios de alto riesgo.
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-2xl md:text-3xl font-bold mb-4">Nuestra visión</h2>
-                <p className="text-gray-300">
-                  Ser la empresa líder en tecnología de seguridad con respuesta autónoma, revolucionando la protección
-                  contra amenazas con sistemas inteligentes y automatizados. Buscamos que NEMTECH se convierta en un
-                  referente global en seguridad avanzada, contribuyendo a la construcción de un mundo más seguro mediante
-                  la innovación y el desarrollo tecnológico.
-                </p>
-              </div>
-            </div>
-            <div>
-              <img src="https://media.canva.com/v2/image-resize/format:PNG/height:272/quality:100/uri:ifs%3A%2F%2F%2F91681e7c-7df1-4e9b-b73b-68156bf2fbf5/watermark:F/width:240?csig=AAAAAAAAAAAAAAAAAAAAAEMMG781LOe56IXEcg1__czPVgaC1F5WPBNhOXYZkf0N&exp=1740648145&osig=AAAAAAAAAAAAAAAAAAAAAAxSYCAb6Rb3mDuWlZU_wZ9gCqqlkaM4__VlKBadW0Y3&signer=media-rpc&x-canva-quality=screen" alt="" />
-            </div>
-          </div>
-      </div>
-        </section>
+      <MisionVision />
 
       {/* nuestros valores */}
         <section className="py-16 relative overflow-hidden">

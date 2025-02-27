@@ -62,7 +62,7 @@ export default function Home() {
         playsInline
       >
         <source 
-          src="https://video-private-assets.canva.com/VAGAb_jkkcc/v/395d8ef459.mp4?exp=1740680820000&cf-ck=EC0YOj55xzSaMScPQiBH6VpxiabH5CHDgDh3pRkgQ7E&cf-sig=Vj-nr0xMQS-CBRrEBnnt2FNMYvb-ElTdlfWT-4v4qmE&cf-sig-kid=CO7cCjZ_YiI=&sig=ERZq92KvP2hPxLJTKt-OlfbLxs46MtaBcncSEbx2H7c&sig-kid=GzFgFdhXD-Q=" 
+          src="https://video-private-assets.canva.com/VAGAb_jkkcc/v/395d8ef459.mp4?exp=1740702420000&cf-ck=EC0YOj55xzSaMScPQiBH6VpxiabH5CHDgDh3pRkgQ7E&cf-sig=qlZ14gUV-EOhfbLsDgb6ou46BMaPOvu5BXxU0zN1lAo&cf-sig-kid=CO7cCjZ_YiI=&sig=705voOr8p8uA5qIlh4QUXL5gyXg2TsHriBv3XX-u5gc&sig-kid=GzFgFdhXD-Q=" 
           type="video/mp4" 
         />
         Your browser does not support the video tag.

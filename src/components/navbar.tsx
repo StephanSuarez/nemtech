@@ -5,7 +5,7 @@ import { Search, ShoppingCart, Mail } from "lucide-react"
 
 export function Navbar() {
   return (
-    <nav className="flex items-center justify-end px-4 py-3 md:px-8 bg-black">
+    <nav className="flex items-center justify-end px-4 py-3 md:px-8 bg-black" style={{justifyContent: "space-between"}}>
       <div className="flex items-center gap-4">
         <Link href="/" className="flex items-center gap-2">
           <Image
@@ -26,9 +26,9 @@ export function Navbar() {
         </div>
       </div>
 
-      <div className="hidden md:flex items-center">
+      <div className="hidden flex gap-12 items-center">
         <NavLink href="/about" className="mr-8">NOSOTROS</NavLink>
-        <NavLink href="/products" className="mr-8">
+        <NavLink href="/products" className="mr-8 flex items-center gap-1">
           PRODUCTOS
           <span className="inline-block ml-1">
             <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">

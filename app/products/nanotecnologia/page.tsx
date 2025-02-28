@@ -22,7 +22,7 @@ export default function NanotecnologiaPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="flex justify-center md:order-1 order-2">
               <Image
-                src="https://media.canva.com/v2/image-resize/format:PNG/height:273/quality:100/uri:ifs%3A%2F%2F%2F174a0afe-1fd4-48bc-8956-64da48ae0b4a/watermark:F/width:273?csig=AAAAAAAAAAAAAAAAAAAAAK1ud-TpQlCxlGVXmzYruL_GSL8srNrRTz1aN0mVUqrT&exp=1740647653&osig=AAAAAAAAAAAAAAAAAAAAALBq1oh9hpqAZjx3ii8NUyRfi0uQDa6XYeNEphjvpOHE&signer=media-rpc&x-canva-quality=screen"
+                src="/images/astro.webp"
                 alt="Nanotecnología"
                 width={500}
                 height={500}

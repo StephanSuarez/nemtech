@@ -17,7 +17,7 @@ export default function AboutPage() {
           title="¿QUE ES NEMTECH?"
           subtitle="En NEMTECH, creamos sistemas inteligentes con capacidad de respuesta en tiempo real, diseñados para detectar, prevenir y neutralizar amenazas antes de que sea demasiado tarde."
           buttonText="IR A COMPRAR"
-          buttonLink="/productos"
+          buttonLink="/products"
           showPlayButton={false}
         />
         <img src="/images/about-section-one.webp" alt="Nemtech" />

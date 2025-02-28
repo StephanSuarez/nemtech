@@ -15,10 +15,11 @@ export default function ContactPage() {
         title="CONTACTO"
         subtitle="Estamos aquí para responder a tus preguntas y ayudarte a encontrar la solución de seguridad perfecta para tus necesidades."
         buttonText="ENVIAR MENSAJE"
+        buttonLink="#contact"
         showPlayButton={false}
       />
       
-      <div className="container mx-auto px-4 md:px-8 py-16">
+      <div className="container mx-auto px-4 md:px-8 py-16" id="contact">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="bg-white bg-opacity-5 p-8 rounded-lg">
             <h2 className="text-2xl font-bold mb-6">Formulario de Contacto</h2>

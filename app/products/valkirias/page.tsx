@@ -57,7 +57,7 @@ export default function ValkiriaPage() {
             </div>
             <div className="flex justify-center">
               <Image
-                src="https://media-public.canva.com/gd_UQ/MAELMvgd_UQ/1/s.png"
+                src="/images/dron.webp"
                 alt="Drone Valkiria"
                 width={500}
                 height={500}

@@ -38,7 +38,7 @@ export default function AsteriaPage() {
             </div>
             <div className="flex justify-center">
               <Image
-                src="https://media.canva.com/v2/image-resize/format:PNG/height:200/quality:100/uri:ifs%3A%2F%2F%2F0344820d-bd6f-4259-aac6-ce18e0dadef6/watermark:F/width:200?csig=AAAAAAAAAAAAAAAAAAAAAHJjo2NsZW6hkfNYvN0TBGACBwFxzekF70s0HGEaPpS2&exp=1740649103&osig=AAAAAAAAAAAAAAAAAAAAAHykcebRzw2q8lo51GxZXLYV0Rh6hTkSk3u7l22gBrnR&signer=media-rpc&x-canva-quality=thumbnail"
+                src="/images/camara.webp"
                 alt="Sistema Asteria"
                 width={500}
                 height={500}

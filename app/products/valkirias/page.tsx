@@ -50,9 +50,9 @@ export default function ValkiriaPage() {
                 <button className="bg-white text-black px-6 py-2 rounded-sm hover:bg-gray-200 transition-colors">
                   Añadir al carrito
                 </button>
-                <button className="border border-white px-6 py-2 rounded-sm hover:bg-white/10 transition-colors">
+                <a href="/contact" className="border border-white px-6 py-2 rounded-sm hover:bg-white/10 transition-colors">
                   Contactar un asesor
-                </button>
+                </a>
               </div>
             </div>
             <div className="flex justify-center">

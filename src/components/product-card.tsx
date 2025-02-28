@@ -1,44 +1,53 @@
 import Image from "next/image"
-import Link from "next/link"
 
 interface ProductCardProps {
+  image: string
   title: string
   description: string
-  imageSrc: string
   buttonText?: string
   buttonLink?: string
 }
 
-export function ProductCard({
+export default function CustomProductCard({
+  image,
   title,
   description,
-  imageSrc,
   buttonText = "+ información",
-  buttonLink = "#",
+  buttonLink,
 }: ProductCardProps) {
   return (
-    <div className="bg-white bg-opacity-10 rounded-lg overflow-hidden flex flex-col">
-      <div className="h-48 relative bg-black">
-        <Image src={imageSrc || "/placeholder.svg"} alt={title} fill className="object-contain p-2" />
+    <div className="relative w-64 h-96 bg-white rounded-3xl shadow-md flex flex-col items-center justify-between">
+      {/* Imagen en la parte superior, flotando */}
+      <div className="absolute -top-6">
+        <Image
+          src={image || "/placeholder.svg"}
+          alt={title}
+          width={250}
+          height={250}
+          className="object-contain"
+        />
       </div>
-      <div className="p-4 flex flex-col flex-grow">
-        <h3 className="text-xl font-bold mb-2">{title}</h3>
-        <p className="text-sm text-gray-300 mb-4 flex-grow">{description}</p>
-        <Link
-          href={buttonLink}
-          className="bg-red-600 hover:bg-red-700 text-white text-sm px-4 py-1 rounded-full self-start flex items-center"
+
+      {/* Contenido textual */}
+      <div className="mt-10"></div>
+      <div className="mt-20 p-4 text-center flex flex-col items-center">
+        <h2 className="text-lg mt-20 font-bold text-black">{title}</h2>
+
+        {/* Ícono + descripción (opcional) */}
+        <div className="flex items-center justify-center gap-2 mt-2">
+          <span className="text-sm text-black">{description}</span>
+        </div>
+      </div>
+
+      {/* Botón al fondo */}
+      <div className="mt-auto mb-4">
+        <a
+          className="bg-red-600 hover:bg-red-700 text-white px-4 py-1 rounded-full text-sm"
+          href={buttonLink || "#"}
         >
-          {buttonText.startsWith("+") ? (
-            <>
-              <span className="mr-1">+</span>
-              {buttonText.substring(1).trim()}
-            </>
-          ) : (
-            buttonText
-          )}
-        </Link>
+          {buttonText}
+        </a>
       </div>
     </div>
   )
 }
-

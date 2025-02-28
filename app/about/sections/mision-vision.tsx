@@ -1,6 +1,6 @@
 export default function MisionVision() {
      return (
-      <div className="max-w-7xl mx-auto relative z-10 mt-10">
+      <div className="max-w-6xl mx-auto relative z-10 mt-10">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="md:col-span-2 space-y-8">
               <div>
@@ -32,7 +32,7 @@ export default function MisionVision() {
                 <div className="absolute top-[15px] right-[15px] h-[90%] w-11 bg-blue-600 flex flex-col items-center justify-center z-[5]">
                   <div>
                     <img 
-                      src="https://media.canva.com/v2/image-resize/format:PNG/height:94/quality:100/uri:ifs%3A%2F%2F%2Fbf3b3240-8e4f-42ea-98d2-644874498d99/watermark:F/width:101?csig=AAAAAAAAAAAAAAAAAAAAAPTkdNSXikh3zPOooMxcNtzHNvHfaAL-g7nkZ0hnHpoM&exp=1740649455&osig=AAAAAAAAAAAAAAAAAAAAAKv4hgQEW4R3WYtsJIDAU3pGEHyJBuH1yROcLkl8L_u3&signer=media-rpc&x-canva-quality=thumbnail" 
+                      src="/images/logo.webp" 
                       alt="Nemtech Logo" 
                       className="w-10 h-10 m-1.5 mb-5"
                     />

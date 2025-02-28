@@ -23,7 +23,7 @@ export default function AsteriaPage() {
             <div>
               <h1 className="text-5xl font-bold mb-8">Asteria</h1>
               <p className="text-lg mb-8 max-w-lg">
-                El sistema de seguridad Nemesis, es un sistema de vigilancia avanzada con capacidad de reacción diseñada
+                El sistema de seguridad Asteria, es un sistema de vigilancia avanzada con capacidad de reacción diseñada
                 para identificar, rastrear, y neutralizar amenazas, a través de cámaras inteligentes con reconocimiento
                 facial, interconectadas con inteligencia artificial y sistemas de respuesta automatizados
               </p>
@@ -31,9 +31,9 @@ export default function AsteriaPage() {
                 <button className="bg-white text-black px-6 py-2 rounded-sm hover:bg-gray-200 transition-colors">
                   Añadir al carrito
                 </button>
-                <button className="border border-white px-6 py-2 rounded-sm hover:bg-white/10 transition-colors">
+                <a href="/contact" className="border border-white px-6 py-2 rounded-sm hover:bg-white/10 transition-colors">
                   Contactar un asesor
-                </button>
+                </a>
               </div>
             </div>
             <div className="flex justify-center">
@@ -45,15 +45,7 @@ export default function AsteriaPage() {
                 className="object-contain"
               />
             </div>
-          </div>
-
-          {/* Pagination dots */}
-          <div className="flex justify-center gap-2 mt-12">
-            <span className="w-2 h-2 rounded-full bg-white"></span>
-            <span className="w-2 h-2 rounded-full bg-gray-500"></span>
-            <span className="w-2 h-2 rounded-full bg-gray-500"></span>
-            <span className="w-2 h-2 rounded-full bg-gray-500"></span>
-          </div>
+          </div> 
         </div>
       </div>
     </main>

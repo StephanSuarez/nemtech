@@ -5,11 +5,11 @@ import { Search, ShoppingCart, Mail } from "lucide-react"
 
 export function Navbar() {
   return (
-    <nav className="flex items-center justify-between px-4 py-3 md:px-8 bg-black">
+    <nav className="flex items-center justify-end px-4 py-3 md:px-8 bg-black">
       <div className="flex items-center gap-4">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="https://media.canva.com/v2/image-resize/format:PNG/height:94/quality:100/uri:ifs%3A%2F%2F%2Fbf3b3240-8e4f-42ea-98d2-644874498d99/watermark:F/width:101?csig=AAAAAAAAAAAAAAAAAAAAAPTkdNSXikh3zPOooMxcNtzHNvHfaAL-g7nkZ0hnHpoM&exp=1740649455&osig=AAAAAAAAAAAAAAAAAAAAAKv4hgQEW4R3WYtsJIDAU3pGEHyJBuH1yROcLkl8L_u3&signer=media-rpc&x-canva-quality=thumbnail"
+            src="/images/logo.webp"
             alt="Nemtech Logo"
             width={40}
             height={10}

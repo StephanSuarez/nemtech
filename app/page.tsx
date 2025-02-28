@@ -31,6 +31,7 @@ export default function Home() {
         <HeroSection
           title="¿Y si la seguridad pudiera reaccionar antes que ocurra el peligro?"
           buttonText="+ INFORMACIÓN"
+          buttonLink="/about"
         />
       </div>
 

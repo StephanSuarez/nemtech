@@ -27,9 +27,8 @@ export function Navbar() {
       </div>
 
       <div className="hidden md:flex items-center space-x-6">
-        <NavLink href="/">CASA</NavLink>
-        <NavLink href="/acerca">ACERCA DE NOSOTROS</NavLink>
-        <NavLink href="/productos">
+        <NavLink href="/about">NOSOTROS</NavLink>
+        <NavLink href="/products">
           PRODUCTOS
           <span className="inline-block ml-1">
             <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,7 +36,7 @@ export function Navbar() {
             </svg>
           </span>
         </NavLink>
-        <NavLink href="/contacto">CONTACTO</NavLink>
+        <NavLink href="/contact">CONTACTO</NavLink>
       </div>
 
       <div className="flex items-center gap-4">

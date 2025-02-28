@@ -1,5 +1,5 @@
-import { Navbar } from "@/components/navbar"
-import { HeroSection } from "@/components/hero-section"
+import { Navbar } from "@/src/components/navbar"
+import { HeroSection } from "@/src/components/hero-section"
 import NuestrosAsesores from "./sections/advisrd"
 
 export default function ContactPage() {

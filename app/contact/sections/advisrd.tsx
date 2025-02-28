@@ -18,7 +18,7 @@ export default function NuestrosAsesores() {
       id: 3,
       nombre: 'Lina María',
       apellidos: 'Gaitan Montoya',
-      imagen: 'https://media.canva.com/v2/image-resize/format:JPG/height:200/quality:75/uri:ifs%3A%2F%2F%2Ff170a0dc-dce6-4fe5-abd4-c952ae926919/watermark:F/width:150?csig=AAAAAAAAAAAAAAAAAAAAACzvmKPs6JMXNGFI3KcWO7C7-1vWJdQWv0pbFeMbBYRd&exp=1740691936&osig=AAAAAAAAAAAAAAAAAAAAACqt7azz08QLaUeXm-TLm-94g7XmZ3nLaXNBaH-hGYDT&signer=media-rpc&x-canva-quality=thumbnail'
+      imagen: '/images/lina.jpeg'
     },
     {
       id: 4,

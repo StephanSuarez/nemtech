@@ -1,5 +1,5 @@
-import { Navbar } from "@/components/navbar"
-import { ProductsGrid } from "@/components/products-grid"
+import { Navbar } from "@/src/components/navbar"
+import { ProductsGrid } from "@/src/components/products-grid"
 
 export default function ProductsPage() {
   // Datos de ejemplo para los productos

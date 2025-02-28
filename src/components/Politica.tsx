@@ -4,7 +4,6 @@ import React from 'react';
 export default function Politica({politics}: {politics: TextPolitics}) {
     return (
       <div className="max-w-5xl mx-auto py-16 px-4 relative z-10 bg-black text-white">
-        <h2 className="text-4xl font-normal mb-8 uppercase">POLITICAS</h2>
         
         <div className="space-y-6">
           <div className="flex items-start gap-4">

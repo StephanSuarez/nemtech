@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Politicas() {
     return (
       <div className="bg-black text-white py-12 px-4 md:px-8">
@@ -5,7 +7,7 @@ export default function Politicas() {
           <h1 className="text-4xl font-bold mb-16">POLITICAS</h1>
   
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Columna Izquierda */}
+            {/* Columna Izquierda */} 
             <div className="space-y-16">
               {/* Política de Calidad */}
               <div>
@@ -15,9 +17,11 @@ export default function Politicas() {
                   con la seguridad avanzada. Nos aseguramos de que cada solución y sistema cumpla con los más altos
                   estándares de precisión, eficiencia y fiabilidad.
                 </p>
-                <button className="bg-red-600 hover:bg-red-700 text-white text-sm px-6 py-1 rounded-full">
-                  + INFORMACIÓN
-                </button>
+                <Link href="/politics">
+                  <button className="bg-red-600 hover:bg-red-700 text-white text-sm px-6 py-1 rounded-full">
+                    + INFORMACIÓN
+                  </button>
+                </Link>
               </div>
   
               {/* Política de Servicio */}
@@ -29,9 +33,11 @@ export default function Politicas() {
                   de seguridad con altos estándares de calidad, respaldados por personal especializado y un enfoque en la
                   satisfacción total de nuestros usuarios.
                 </p>
-                <button className="bg-red-600 hover:bg-red-700 text-white text-sm px-6 py-1 rounded-full">
-                  + INFORMACIÓN
-                </button>
+                <Link href="/politics">
+                  <button className="bg-red-600 hover:bg-red-700 text-white text-sm px-6 py-1 rounded-full">
+                    + INFORMACIÓN
+                  </button>
+                </Link>
               </div>
             </div>
   
@@ -44,9 +50,11 @@ export default function Politicas() {
                   ambiental de nuestras actividades. Nuestra política ambiental se fundamenta en el desarrollo sostenible,
                   asegurando la compatibilidad entre la innovación tecnológica y la protección del medio ambiente.
                 </p>
-                <button className="bg-red-600 hover:bg-red-700 text-white text-sm px-6 py-1 rounded-full">
-                  + INFORMACIÓN
-                </button>
+                <Link href="/politics">
+                  <button className="bg-red-600 hover:bg-red-700 text-white text-sm px-6 py-1 rounded-full">
+                    + INFORMACIÓN
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

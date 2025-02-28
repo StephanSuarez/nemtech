@@ -26,9 +26,9 @@ export function Navbar() {
         </div>
       </div>
 
-      <div className="hidden md:flex items-center space-x-6">
-        <NavLink href="/about">NOSOTROS</NavLink>
-        <NavLink href="/products">
+      <div className="hidden md:flex items-center">
+        <NavLink href="/about" className="mr-8">NOSOTROS</NavLink>
+        <NavLink href="/products" className="mr-8">
           PRODUCTOS
           <span className="inline-block ml-1">
             <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -59,11 +59,15 @@ interface NavLinkProps {
   href: string
   children: React.ReactNode
   active?: boolean
+  className?: string
 }
 
-function NavLink({ href, children, active }: NavLinkProps) {
+function NavLink({ href, children, active, className = "" }: NavLinkProps) {
   return (
-    <Link href={href} className={`${active ? "font-bold border-b-2 border-purple-500 pb-1" : "hover:text-gray-300"}`}>
+    <Link 
+      href={href} 
+      className={`${active ? "font-bold border-b-2 border-purple-500 pb-1" : "hover:text-gray-300"} ${className} text-white`}
+    >
       {children}
     </Link>
   )

@@ -3,13 +3,7 @@ import { HeroSection } from "@/src/components/hero-section"
 import Image from "next/image"
 import Politicas from "./sections/policies"
 import Objetivos from "./sections/objetives"
-import PoliticasDef from "./sections/politicas-calidad"
-import PoliticasCalidad from "./sections/politicas-calidad"
-import PoliticaServicio from "./sections/politicas-servicio"
-import Regulaciones from "./sections/regulations"
 import MisionVision from "./sections/mision-vision"
-import { textPolitics } from "@/src/utils/utils"
-import Politica from "@/src/components/Politica"
 
 
 
@@ -122,12 +116,6 @@ export default function AboutPage() {
       {/* POLITICAS */}
       <Politicas />
 
-      {textPolitics.map((politics) => (
-        <Politica key={politics.title} politics={politics} />
-      ))}
-
-      {/* REGULACIONES */}
-      <Regulaciones />
     </main>
   )
 }

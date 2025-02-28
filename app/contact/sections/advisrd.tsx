@@ -6,13 +6,13 @@ export default function NuestrosAsesores() {
       id: 1,
       nombre: 'Ana María',
       apellidos: 'Barrera Romero',
-      imagen: 'https://media.canva.com/v2/image-resize/format:JPG/height:200/quality:75/uri:ifs%3A%2F%2F%2F7874067a-58e4-433d-adaf-a6e9d73c4feb/watermark:F/width:112?csig=AAAAAAAAAAAAAAAAAAAAAD9NLAc6kh5eW5pmCgLQMe6bJC4vUtNaQ0dsFV1tMhJ8&exp=1740691743&osig=AAAAAAAAAAAAAAAAAAAAALDqTPbtKu1MFI9FEaIo-bldTECnJmQAKNifvak7YQNv&signer=media-rpc&x-canva-quality=thumbnail'
+      imagen: '/images/ana.webp'
     },
     {
       id: 2,
       nombre: 'Zarah Suarez',
       apellidos: 'Perez',
-      imagen: 'https://media.canva.com/v2/image-resize/format:JPG/height:200/quality:75/uri:ifs%3A%2F%2F%2F2ac2280e-f69b-460d-b051-cd7a78670576/watermark:F/width:90?csig=AAAAAAAAAAAAAAAAAAAAAM0eV0zmhpo9STv9XZSEJPznsB0t3C4WMN9XVm-THO5G&exp=1740691971&osig=AAAAAAAAAAAAAAAAAAAAALkOgDzsA9zR7WnNV957CHg1NZsIhVLTmYH4MvWEgZ6T&signer=media-rpc&x-canva-quality=thumbnail'
+      imagen: '/images/zarah.webp'
     },
     {
       id: 3,
@@ -24,7 +24,7 @@ export default function NuestrosAsesores() {
       id: 4,
       nombre: 'Yenny Tatiana Torres',
       apellidos: 'Huérfano',
-      imagen: 'https://media.canva.com/v2/image-resize/format:JPG/height:200/quality:75/uri:ifs%3A%2F%2F%2F3638d01b-df7a-400c-ada1-5649d695abdb/watermark:F/width:159?csig=AAAAAAAAAAAAAAAAAAAAACTvrmsCdvkJ4wbYby_18foRnvpyXvdiA9KhbPeNJl51&exp=1740688867&osig=AAAAAAAAAAAAAAAAAAAAADSLFtuIaBf6zDHfKhClo8s697uVEO-DeYoBudqw8ph4&signer=media-rpc&x-canva-quality=thumbnail'
+      imagen: '/images/yenny.webp'
     }
   ];
 

@@ -51,8 +51,8 @@ export default function SectionOne() {
               <Image
                 src="/images/plane.webp"
                 alt="Globe with logistics imagery"
-                width={400}
-                height={400}
+                width={500}
+                height={500}
                 className="object-contain"
               />
             </div>

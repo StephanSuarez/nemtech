@@ -7,10 +7,16 @@ export default function SectionOne() {
         <section className="relative w-full text-white overflow-hidden">
             {/* Background image - added no-repeat */}
             <img
-                className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-60"
+                className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-40"
                 src="/images/buildings.webp"
                 alt="Nemtech"
             />
+            
+            {/* Background overlay */}
+            <div 
+                className="absolute top-0 left-0 w-full h-full z-5"
+                style={{ backgroundColor: 'rgba(0, 0, 0, 0.4)' }}
+            ></div>
 
             <div className="container mx-auto px-4 py-12 md:py-16 relative z-10">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">

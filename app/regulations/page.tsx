@@ -1,25 +1,28 @@
 import { Navbar } from "@/src/components/navbar"
-import { HeroSection } from "@/src/components/hero-section"
-import { ServicesSection } from "@/src/components/services-section"
-import { ProductsGrid } from "@/src/components/products-grid"
-import RegulationsSection from "./regulation"
-
+import SectionOne from "@/src/components/sections/exports/section-one"
+import SectionTwo from "@/src/components/sections/exports/section-two"
+import Imports from "@/src/components/sections/exports/imports"
+import IncotermsComponent from "@/src/components/sections/exports/incontems"
 export default function Regulations() {
+
 
   return (
     <main className="min-h-screen bg-black text-white relative overflow-hidden bg-black">
       {/* Background video */}
-      <img 
-        className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-60"
-        src="/images/regulations-background.jpg" 
-        alt="Nemtech" 
-      />
+      
       
       {/* Content with higher z-index to appear above the video */}
       <div className="relative z-10">
         <Navbar />
 
-       <RegulationsSection />
+       {/* <RegulationsSection /> */}
+
+       <SectionOne />
+       <SectionTwo />
+
+       <Imports />
+
+       <IncotermsComponent />
       </div>
     </main>
   )

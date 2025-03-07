@@ -1,6 +1,11 @@
 export default function RegulationsSection() {
   return (
     <div className="relative w-full h-[400px] overflow-hidden">
+      <img 
+        className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-60"
+        src="/images/regulations-background.jpg" 
+        alt="Nemtech" 
+      />
       
       {/* Contenido */}
       <div className="relative z-10 max-w-5xl mx-auto px-4 py-16 h-full flex flex-col justify-center">

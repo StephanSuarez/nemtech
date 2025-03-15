@@ -20,8 +20,6 @@ export const CardSelectedProvider = ({ children }: { children: React.ReactNode }
         terms: [],
     });
 
-    console.log(cardSelected);
-
     return (
         <CardSelectedContext.Provider value={{ cardSelected, setCardSelected }}>
             {children}

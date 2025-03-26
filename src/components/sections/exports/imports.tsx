@@ -3,7 +3,7 @@ import Image from "next/image"
 import Title from "@/src/components/titles/title"
 export default function Imports() {
   return (
-    <section className="relative w-full bg-gradient-to-r from-slate-800 to-amber-900 text-white overflow-hidden">
+    <section className="relative w-full h-screen flex flex-col items-center justify-center bg-gradient-to-r from-slate-800 to-amber-900 text-white overflow-hidden">
       <div className="container mx-auto px-4 py-12 md:py-16 relative z-10">
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">

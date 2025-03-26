@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Title from "../../titles/title";
 export default function SectionOne() {
   return (
-    <section className="relative w-full bg-gradient-to-r from-slate-800 to-amber-900 text-white overflow-hidden">
+    <section className="relative w-full h-screen flex flex-col items-center justify-center bg-gradient-to-r from-slate-800 to-amber-900 text-white overflow-hidden">
       <img 
         className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-60"
         src="/images/buildings.webp" 

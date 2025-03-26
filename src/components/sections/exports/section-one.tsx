@@ -4,7 +4,7 @@ import Image from "next/image"
 import Title from "../../titles/title";
 export default function SectionOne() {
     return (
-        <section className="relative w-full text-white overflow-hidden">
+        <section className="relative w-full h-screen text-white overflow-hidden flex flex-col items-center justify-center">
             {/* Background image - added no-repeat */}
             <img
                 className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-40"

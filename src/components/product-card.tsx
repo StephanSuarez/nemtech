@@ -16,7 +16,7 @@ export default function CustomProductCard({
   buttonLink,
 }: ProductCardProps) {
   return (
-    <div className="relative w-64 h-96 bg-white rounded-3xl shadow-md flex flex-col items-center justify-between">
+    <div className="relative w-64 h-96 mx-auto bg-white rounded-3xl shadow-md overflow-hidden flex flex-col items-center justify-between" style={{borderRadius: "20px"}}>
       {/* Imagen en la parte superior, flotando */}
       <div className="absolute -top-6">
         <Image

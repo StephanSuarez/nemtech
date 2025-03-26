@@ -10,8 +10,8 @@ export default function NuestrosAsesores() {
     },
     {
       id: 2,
-      nombre: 'Zarah Suarez',
-      apellidos: 'Perez',
+      nombre: 'Zarah',
+      apellidos: 'Suarez Perez',
       imagen: '/images/zarah.webp'
     },
     {
@@ -22,8 +22,8 @@ export default function NuestrosAsesores() {
     },
     {
       id: 4,
-      nombre: 'Yenny Tatiana Torres',
-      apellidos: 'Huérfano',
+      nombre: 'Yenny Tatiana',
+      apellidos: 'Torres Huérfano',
       imagen: '/images/yenny.webp'
     }
   ];
@@ -39,7 +39,7 @@ export default function NuestrosAsesores() {
       <div className="max-w-4xl mx-auto relative z-10">
         <h2 className="text-4xl font-bold mb-12">NUESTROS ASESORES</h2>
         
-        <div className="grid grid-cols-2 gap-x-16 gap-y-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-20 justify-items-start mx-20">
           {asesores.map((asesor) => (
             <div key={asesor.id} className="flex items-center">
               <div className="w-20 h-20 md:w-24 md:h-24 overflow-hidden rounded-full mr-4">

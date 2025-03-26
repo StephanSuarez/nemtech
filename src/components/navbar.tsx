@@ -1,9 +1,15 @@
+"use client"
 import type React from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { Search, ShoppingCart, Mail } from "lucide-react"
+import { useState } from "react"
+import { Mail } from "lucide-react"
 
 export function Navbar() {
+
+  const [isOpen, setIsOpen] = useState(false);
+  const [hamMenu, setHamMenu] = useState(false);
+
   return (
     <nav className="flex items-center justify-end px-4 py-3 md:px-8 bg-black" style={{justifyContent: "space-between"}}>
       <div className="flex items-center gap-4">
@@ -15,8 +21,9 @@ export function Navbar() {
             height={10}
           /> <span className="text-white">Nemtech</span>
         </Link>
-        <div className="md:hidden flex">
-          <button className="text-white p-2">
+        {hamMenu && (
+          <div className="md:hidden flex">
+          <button className="text-white p-2" onClick={() => setHamMenu(!hamMenu)}>
             <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none">
               <line x1="3" y1="12" x2="21" y2="12"></line>
               <line x1="3" y1="6" x2="21" y2="6"></line>
@@ -24,6 +31,7 @@ export function Navbar() {
             </svg>
           </button>
         </div>
+        )}
       </div>
 
       <div className="hidden flex gap-12 items-center">
@@ -40,15 +48,6 @@ export function Navbar() {
       </div>
 
       <div className="flex items-center gap-4">
-        <div className="relative flex items-center">
-          <input
-            type="text"
-            className="bg-transparent border border-gray-700 rounded-full px-4 py-1 pr-10 w-32 md:w-48 focus:outline-none focus:border-purple-500"
-            placeholder="Buscar..."
-          />
-          <Search className="absolute right-3 h-4 w-4 text-gray-400" />
-        </div>
-        <ShoppingCart className="h-5 w-5 text-white" />
         <Mail className="h-5 w-5 text-white" />
       </div>
     </nav>

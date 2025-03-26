@@ -5,14 +5,12 @@ import Politicas from "./sections/policies"
 import Objetivos from "./sections/objetives"
 import MisionVision from "./sections/mision-vision"
 
-
-
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-black text-white">
       <Navbar />
 
-      <div className="flex flex-row items-center justify-center max-w-7xl mx-auto">
+      <div className="flex flex-col md:flex-row items-center justify-center max-w-7xl mx-auto px-4 mt-10">
         <HeroSection
           title="¿QUE ES NEMTECH?"
           subtitle="En NEMTECH, creamos sistemas inteligentes con capacidad de respuesta en tiempo real, diseñados para detectar, prevenir y neutralizar amenazas antes de que sea demasiado tarde."
@@ -20,8 +18,7 @@ export default function AboutPage() {
           buttonLink="/products"
           showPlayButton={false}
         />
-        <img src="/images/about-section-one.webp" alt="Nemtech" />
-
+        <img src="/images/about-section-one.webp" alt="Nemtech" className="w-full md:w-auto" />
       </div>
 
       {/* Misión y Visión */}
@@ -38,65 +35,25 @@ export default function AboutPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="flex items-start">
-              <div className="w-12 h-12 rounded-full flex justify-center items-center mr-4 flex-shrink-0 bg-white/10">
-                <span className="text-yellow-300 text-xl">🔆</span>
+            {/* Each value item */}
+            {[
+              { icon: "🔆", color: "text-yellow-300", title: "Innovación", description: "Buscamos siempre la vanguardia en tecnología para ofrecer soluciones avanzadas y eficientes." },
+              { icon: "🛡️", color: "text-blue-300", title: "Seguridad", description: "Nuestro compromiso es la protección de vidas y la prevención de amenazas en cualquier entorno." },
+              { icon: "🎯", color: "text-purple-300", title: "Precisión", description: "Diseñamos sistemas de alta exactitud para minimizar riesgos y maximizar la efectividad." },
+              { icon: "⚖️", color: "text-pink-200", title: "Ética", description: "Aplicamos nuestras tecnologías con responsabilidad, asegurando un uso transparente y enfocado en el bienestar común." },
+              { icon: "🔄", color: "text-teal-200", title: "Adaptabilidad", description: "Desarrollamos soluciones flexibles que se ajustan a diferentes escenarios de seguridad." },
+              { icon: "⚡", color: "text-red-300", title: "Eficiencia", description: "Optimizamos cada proceso para ofrecer respuestas rápidas y efectivas ante cualquier amenaza." },
+            ].map((value, index) => (
+              <div key={index} className="flex items-start">
+                <div className={`w-12 h-12 rounded-full flex justify-center items-center mr-4 flex-shrink-0 bg-white/10 ${value.color}`}>
+                  <span className="text-xl">{value.icon}</span>
+                </div>
+                <div>
+                  <h3 className="font-bold inline text-white text-base">{value.title}:</h3>
+                  <p className="inline text-white/80"> {value.description}</p>
+                </div>
               </div>
-              <div>
-                <h3 className="font-bold inline text-white text-base">Innovación:</h3>
-                <p className="inline text-white/80"> Buscamos siempre la vanguardia en tecnología para ofrecer soluciones avanzadas y eficientes.</p>
-              </div>
-            </div>
-
-            <div className="flex items-start">
-              <div className="w-12 h-12 rounded-full flex justify-center items-center mr-4 flex-shrink-0 bg-white/10">
-                <span className="text-blue-300 text-xl">🛡️</span>
-              </div>
-              <div>
-                <h3 className="font-bold inline text-white text-base">Seguridad:</h3>
-                <p className="inline text-white/80"> Nuestro compromiso es la protección de vidas y la prevención de amenazas en cualquier entorno.</p>
-              </div>
-            </div>
-
-            <div className="flex items-start">
-              <div className="w-12 h-12 rounded-full flex justify-center items-center mr-4 flex-shrink-0 bg-white/10">
-                <span className="text-purple-300 text-xl">🎯</span>
-              </div>
-              <div>
-                <h3 className="font-bold inline text-white text-base">Precisión:</h3>
-                <p className="inline text-white/80"> Diseñamos sistemas de alta exactitud para minimizar riesgos y maximizar la efectividad.</p>
-              </div>
-            </div>
-
-            <div className="flex items-start">
-              <div className="w-12 h-12 rounded-full flex justify-center items-center mr-4 flex-shrink-0 bg-white/10">
-                <span className="text-pink-200 text-xl">⚖️</span>
-              </div>
-              <div>
-                <h3 className="font-bold inline text-white text-base">Ética:</h3>
-                <p className="inline text-white/80"> Aplicamos nuestras tecnologías con responsabilidad, asegurando un uso transparente y enfocado en el bienestar común.</p>
-              </div>
-            </div>
-
-            <div className="flex items-start">
-              <div className="w-12 h-12 rounded-full flex justify-center items-center mr-4 flex-shrink-0 bg-white/10">
-                <span className="text-teal-200 text-xl">🔄</span>
-              </div>
-              <div>
-                <h3 className="font-bold inline text-white text-base">Adaptabilidad:</h3>
-                <p className="inline text-white/80"> Desarrollamos soluciones flexibles que se ajustan a diferentes escenarios de seguridad.</p>
-              </div>
-            </div>
-
-            <div className="flex items-start">
-              <div className="w-12 h-12 rounded-full flex justify-center items-center mr-4 flex-shrink-0 bg-white/10">
-                <span className="text-red-300 text-xl">⚡</span>
-              </div>
-              <div>
-                <h3 className="font-bold inline text-white text-base">Eficiencia:</h3>
-                <p className="inline text-white/80"> Optimizamos cada proceso para ofrecer respuestas rápidas y efectivas ante cualquier amenaza.</p>
-              </div>
-            </div>
+            ))}
           </div>
 
           <div className="relative">
@@ -115,7 +72,6 @@ export default function AboutPage() {
 
       {/* POLITICAS */}
       <Politicas />
-
     </main>
   )
 }

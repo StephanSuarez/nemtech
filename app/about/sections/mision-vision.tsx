@@ -1,6 +1,6 @@
 export default function MisionVision() {
      return (
-      <div className="max-w-6xl mx-auto relative z-10 mt-10">
+      <div className="max-w-6xl mx-auto relative z-10 mt-10 p-6 m-10">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="md:col-span-2 space-y-8">
               <div>

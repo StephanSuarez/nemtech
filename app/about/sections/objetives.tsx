@@ -15,9 +15,9 @@ export default function Objetivos() {
         Your browser does not support the video tag.
       </video>
       <div className="max-w-5xl mx-auto relative z-10 h-full flex flex-col justify-center p-4">
-        <h2 className="text-3xl font-normal mb-6">Nuestros objetivos</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <ul className="list-disc pl-5 space-y-3">
+        <h2 className="text-7xl font-bold mb-8">Nuestros objetivos</h2>
+        <div className="md:grid-cols-2 gap-6">
+          <ul className="list-disc pl-5 space-y-6 text-3xl">
             <li>
               Posicionar a NEMTECH como líder en seguridad avanzada global.
             </li>

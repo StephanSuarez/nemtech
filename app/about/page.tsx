@@ -12,7 +12,8 @@ export default function AboutPage() {
 
       <div className="flex flex-col md:flex-row items-center justify-center max-w-7xl mx-auto px-4 mt-10">
         <HeroSection
-          title="¿QUE ES NEMTECH?"
+          title="¿QUÉ ES "
+          title2="NEMTECH?"
           subtitle="En NEMTECH, creamos sistemas inteligentes con capacidad de respuesta en tiempo real, diseñados para detectar, prevenir y neutralizar amenazas antes de que sea demasiado tarde."
           buttonText="IR A COMPRAR"
           buttonLink="/products"

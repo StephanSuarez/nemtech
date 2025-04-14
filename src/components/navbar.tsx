@@ -11,7 +11,7 @@ export function Navbar() {
   const [hamMenu, setHamMenu] = useState(false);
 
   return (
-    <nav className="flex items-center justify-end px-4 py-3 md:px-8 bg-black" style={{justifyContent: "space-between"}}>
+    <nav className="flex items-center justify-end px-4 py-3 md:px-8 bg-black h-[80px]" style={{justifyContent: "space-between"}}>
       <div className="flex items-center gap-4">
         <Link href="/" className="flex items-center gap-2">
           <Image

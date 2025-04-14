@@ -29,7 +29,7 @@ export default function NuestrosAsesores() {
   ];
 
   return (
-    <div className="w-full bg-gray-900 text-white py-16 px-4 relative overflow-hidden">
+    <div className="w-full min-h-fit md:h-screen bg-gray-900 text-white py-16 px-4 relative overflow-hidden">
       {/* Efecto de gradiente en la esquina superior izquierda */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-gradient-to-br from-red-900/30 to-transparent rounded-full blur-3xl"></div>
       
@@ -39,7 +39,7 @@ export default function NuestrosAsesores() {
       <div className="max-w-4xl mx-auto relative z-10">
         <h2 className="text-4xl font-bold mb-12">NUESTROS ASESORES</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-20 justify-items-start mx-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-8 sm:mt-12 md:mt-20 lg:mt-[140px] justify-items-center mx-auto max-w-4xl">
           {asesores.map((asesor) => (
             <div key={asesor.id} className="flex items-center">
               <div className="w-20 h-20 md:w-24 md:h-24 overflow-hidden rounded-full mr-4">

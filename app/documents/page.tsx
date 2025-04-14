@@ -3,7 +3,7 @@ import SectionOne from "@/src/components/sections/exports/section-one"
 import SectionTwo from "@/src/components/sections/exports/section-two"
 import Imports from "@/src/components/sections/exports/imports"
 import IncotermsComponent from "@/src/components/sections/exports/incontems"
-
+import DocumentosPage from "@/src/components/documentos-page"
 
 export default function Regulations() {
 
@@ -16,14 +16,14 @@ export default function Regulations() {
       <div className="relative z-10">
         <Navbar />
 
-       {/* <RegulationsSection /> */}
+        <DocumentosPage />
 
-       <SectionOne />
+       {/* <SectionOne />
        <SectionTwo />
 
        <Imports />
 
-       <IncotermsComponent />
+       <IncotermsComponent /> */}
       </div>
     </main>
   )

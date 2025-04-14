@@ -56,15 +56,6 @@ export default function NuestrosAsesores() {
             </div>
           ))}
         </div>
-        
-        <div className="mt-12 flex justify-center">
-          <a 
-            href="#contacto" 
-            className="bg-red-600 hover:bg-red-700 text-white py-3 px-6 rounded-full text-sm font-medium tracking-wide uppercase transition-colors"
-          >
-            Contactar a un asesor
-          </a>
-        </div>
       </div>
     </div>
   );

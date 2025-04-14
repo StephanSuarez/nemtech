@@ -41,10 +41,10 @@ export function HeroSection({
 
           {subtitle && <p className="text-lg md:text-xl mb-8 text-gray-200">{subtitle}</p>}
 
-          <div className="flex items-center gap-8 mt-10 cursor-pointer">
+          <div className="flex items-center gap-8 mt-10">
             <Link
               href={buttonLink}
-              className="bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-full flex items-center"
+              className="bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-full flex items-center relative z-50"
             >
               {buttonText.startsWith("+") ? (
                 <>

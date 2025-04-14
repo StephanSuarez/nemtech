@@ -15,7 +15,7 @@ export const textPolitics: TextPolitics[] = [
     {
         title: "Política de Calidad",
         description: textBoldAndNormal("En", "NEMTECH", "la calidad es el pilar fundamental de nuestro compromiso con la seguridad avanzada. Nos aseguramos de que cada solución tecnológica cumpla con los más altos estándares de precisión, eficiencia y eficacia. Para ello, implementamos un Sistema de Gestión de Calidad (SGC) basado en normativas internacionales, garantizando:"),
-        image: "/politica-calidad-icon.png",
+        image: "/images/pcalidad.webp",
         list: [
             textBoldAndNormal("", "Diseño y desarrollo innovador:", "Incorporamos tecnologías de vanguardia, como inteligencia artificial y nanotecnología, asegurando una evolución constante en nuestras soluciones de seguridad."),
             textBoldAndNormal("", "Control de calidad riguroso:", "Aplicamos procesos de inspección, pruebas de desempeño y auditorías internas en cada etapa del ciclo de producción, minimizando riesgos y maximizando la eficacia de nuestras soluciones."),
@@ -27,7 +27,7 @@ export const textPolitics: TextPolitics[] = [
     {
         title: "Política Ambiental",
         description: textBoldAndNormal("En", "NEMTECH", "comprendemos la responsabilidad de minimizar el impacto ambiental de nuestras actividades. Nuestra política ambiental se fundamenta en el desarrollo sostenible, asegurando la compatibilidad entre la innovación tecnológica y la protección del medio ambiente. Para ello, adoptamos los siguientes principios:"),
-        image: "/politica-calidad-icon.png",
+        image: "/images/pambiental.webp",
         list: [
             textBoldAndNormal("", "Diseño ecológico de productos:", "Implementamos materiales reciclables y tecnologías de bajo consumo energético en el desarrollo de nuestros sistemas de seguridad."),
             textBoldAndNormal("", "Gestión eficiente de residuos:", "Aplicamos estrategias de reducción, reutilización y reciclaje de residuos generados en el desarrollo y prueba de nuestros productos."),
@@ -38,9 +38,9 @@ export const textPolitics: TextPolitics[] = [
         ]
     },
     {
-        title: "Política de Seguridad",
+        title: "Política de Servicio",
         description: textBoldAndNormal("La excelencia en el servicio es un eje clave en", "NEMTECH", "donde nos comprometemos a brindar soluciones tecnológicas de seguridad con altos estándares de atención al cliente, soporte técnico especializado y un enfoque en la satisfacción de nuestros usuarios. Nuestra política de servicio se basa en los siguientes principios:"),
-        image: "/politica-calidad-icon.png",
+        image: "/images/pservicio.webp",
         list: [
             textBoldAndNormal("", "Atención al cliente:", "Ofrecemos un servicio de atención al cliente excepcional, con un enfoque en la satisfacción de nuestros usuarios."),
             textBoldAndNormal("", "Soporte técnico especializado:", "Brindamos asistencia técnica 24/7 para garantizar el correcto funcionamiento de nuestros sistemas, con soporte en múltiples idiomas."),

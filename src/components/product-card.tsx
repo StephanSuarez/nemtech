@@ -34,8 +34,8 @@ export default function CustomProductCard({
         <h2 className="text-lg mt-20 font-bold text-black">{title}</h2>
 
         {/* Ícono + descripción (opcional) */}
-        <div className="flex items-center justify-center gap-2 mt-2">
-          <span className="text-sm text-black">{description}</span>
+        <div className="flex flex-col items-center justify-center w-full mt-2">
+          <span style={{fontSize: "14px", textAlign: "center", marginTop: "10px"}} className="text-sm text-black text-center w-full">{description}</span>
         </div>
       </div>
 

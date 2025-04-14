@@ -16,14 +16,13 @@ export const ImageText = ({ src, alt, text, link, onClick }: ImageTextProps) => 
     };
 
     return (
-        <div className="flex flex-col items-center cursor-pointer" onClick={handleClick}>
+        <button className="flex flex-col items-center cursor-pointer" onClick={handleClick}>
             <img
                 src={src}
                 alt={alt}
                 className="w-3/4 sm:w-3/5 md:w-4/5 lg:w-3/4"
             />
             <p className="mt-2 text-center">{text}</p>
-        </div>
-
+        </button>
     )
 } 

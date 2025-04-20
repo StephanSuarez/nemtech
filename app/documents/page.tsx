@@ -8,23 +8,22 @@ import DocumentosPage from "@/src/components/documentos-page"
 export default function Regulations() {
 
   return (
-    <main className="min-h-screen bg-black text-white relative overflow-hidden bg-black">
-      {/* Background video */}
-      
-      
-      {/* Content with higher z-index to appear above the video */}
+    <main className="min-h-screen bg-black text-white relative overflow-hidden bg-black flex flex-col">
+
       <div className="relative z-10">
         <Navbar />
+      </div>
 
+      <div className="relative z-10 h-[100vh] flex-1" style={{height: "100vh"}}>
         <DocumentosPage />
+      </div>
 
-       {/* <SectionOne />
+      {/* <SectionOne />
        <SectionTwo />
 
        <Imports />
 
        <IncotermsComponent /> */}
-      </div>
     </main>
   )
 }

@@ -27,7 +27,7 @@ export default function incotermsPage() {
                 <Politica politics={whatAreIncoterms} />
                 <Politica politics={whoEstablishIncoterms} />
                 <div className="mt-8">
-                    <DocumentItem title="https://masam.cuautitlan.unam.mx/remadics/materiales/pdfs/Incoterms_2020.pdf" url="https://masam.cuautitlan.unam.mx/remadics/materiales/pdfs/Incoterms_2020.pdf" />
+                    <DocumentItem title="Información de los Incoterms" url="https://masam.cuautitlan.unam.mx/remadics/materiales/pdfs/Incoterms_2020.pdf" />
                 </div>
             </div>
         </div>

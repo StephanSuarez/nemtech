@@ -23,11 +23,11 @@ export default function PlanVallejo(){
         <div className="min-h-screen bg-black text-white">
             <Navbar />
             <div className="max-w-5xl mx-auto py-16 px-4 relative z-10 bg-black text-white">
-                <h2 className="text-4xl font-normal mb-8 uppercase">INCOTERMS</h2>
+                <h2 className="text-4xl font-normal mb-8 uppercase">Plan Vallejo</h2>
                 <Politica politics={whatAreLeySeven} />
                 <Politica politics={whoEstablishLeySeven} />
                 <div className="mt-8">
-                    <DocumentItem title="https://www.mincit.gov.co/getattachment/5fe79cfc-7b43-442a-b9ee-13b7bf58506c/13-04-2016-plan-vallejo.aspx" url="https://www.mincit.gov.co/getattachment/5fe79cfc-7b43-442a-b9ee-13b7bf58506c/13-04-2016-plan-vallejo.aspx" />
+                    <DocumentItem title="Información del Plan Vallejo" url="https://www.mincit.gov.co/getattachment/5fe79cfc-7b43-442a-b9ee-13b7bf58506c/13-04-2016-plan-vallejo.aspx" />
                 </div>
             </div>
         </div>

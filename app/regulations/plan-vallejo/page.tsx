@@ -2,6 +2,8 @@ import { Navbar } from "@/src/components/navbar";
 import Politica from "@/src/components/Politica";
 import { TextPolitics } from "@/src/utils/utilsInterface";
 import { DocumentItem } from "@/src/components/documentos-page";
+import { ArrowLeft } from "lucide-react";
+import Link from "next/link";
 
 export default function PlanVallejo(){
    
@@ -23,7 +25,16 @@ export default function PlanVallejo(){
         <div className="min-h-screen bg-black text-white">
             <Navbar />
             <div className="max-w-5xl mx-auto py-16 px-4 relative z-10 bg-black text-white">
-                <h2 className="text-4xl font-normal mb-8 uppercase">Plan Vallejo</h2>
+
+                <div className="flex items-center gap-4 mb-8">
+                    <Link 
+                        href="/regulations" 
+                        className="text-white hover:text-gray-300 transition-colors"
+                    >
+                        <ArrowLeft size={24} />
+                    </Link>
+                    <h2 className="text-4xl font-normal uppercase">Plan Vallejo</h2>
+                </div>
                 <Politica politics={whatAreLeySeven} />
                 <Politica politics={whoEstablishLeySeven} />
                 <div className="mt-8">

@@ -32,10 +32,22 @@ export default function NanotecnologiaPage() {
             <div className="md:order-2 order-1">
               <h1 className="text-5xl font-bold mb-8">Nanotecnología</h1>
               <p className="text-lg mb-8 max-w-lg">
-                En Nemtech, entendemos que la seguridad del futuro requiere tecnología avanzada y sistemas con capacidad
-                de reacción en tiempo real. Para ello, importamos y desarrollamos tecnología de última generación,
-                garantizando soluciones de seguridad avanzadas, inteligencia artificial y nanotecnología.
+                Nanotecnología aplicada a la seguridad Importación y desarrollo de tecnología de última generación para:
               </p>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start">
+                  <span className="text-purple-500 mr-2">•</span>
+                  Mejorar la eficiencia y durabilidad de equipos de seguridad
+                </li>
+                <li className="flex items-start">
+                  <span className="text-purple-500 mr-2">•</span>
+                  Integración con IA, sensores avanzados y materiales inteligentes
+                </li>
+                <li className="flex items-start">
+                  <span className="text-purple-500 mr-2">•</span>
+                  Implementación en defensa, infraestructura crítica y vigilancia
+                </li>
+              </ul>
               <div className="flex gap-4">
                 <a href="/contact" className="border border-white px-6 py-2 rounded-sm hover:bg-white/10 transition-colors">
                   Contactar un asesor

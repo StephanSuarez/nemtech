@@ -2,7 +2,7 @@ import { Navbar } from "@/src/components/navbar"
 import { HeroSection } from "@/src/components/hero-section"
 import { ImageText } from "@/src/components/buttons/image-text"
 export default function Home() {
-  
+
   const buttons = [
     {
       text: "REGULACIONES",

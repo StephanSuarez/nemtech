@@ -42,7 +42,8 @@ export default function CustomProductCard({
       {/* Botón al fondo */}
       <div className="mt-auto mb-4">
         <a
-          className="bg-red-600 hover:bg-red-700 text-white px-4 py-1 rounded-full text-sm"
+          className="bg-red-600 hover:bg-red-700 text-white px-8 py-2 rounded-full text-base font-bold flex items-center justify-center transition-colors duration-200 w-[200px] inline-block"
+          style={{width: "200px"}}
           href={buttonLink || "#"}
         >
           {buttonText}

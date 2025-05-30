@@ -32,8 +32,8 @@ export const DocumentItem = ({ title, image = "", url = "" }: DocumentItemProps)
 
 export default function DocumentosPage() {
   return (
-    <div className="relative w-full flex items-center">
-      <div className="absolute top-0 left-0 w-full h-[100vh] opacity-50 p-12">
+    <div className="relative w-full min-h-screen flex items-center">
+      <div className="absolute inset-0 w-full h-full opacity-50">
         <Image
           src="/images/background-documents.webp"
           alt="Documentos"
@@ -43,11 +43,11 @@ export default function DocumentosPage() {
           priority
         />
       </div>
-      <div className="container mx-auto px-6 sm:px-12 md:px-16 lg:px-24 py-12 md:py-16 lg:py-24 z-10">
+      <div className="container mx-auto px-6 sm:px-12 md:px-16 lg:px-24 py-8 md:py-16 lg:py-24 z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center" style={{padding: "20px"}}>
           <div>
-            <h1 style={{ fontSize: '70px' }} className="sm:text-7xl md:text-8xl lg:text-9xl font-bold text-white mb-12">DOCUMENTOS</h1>
-            <div className="space-y-4">
+            <h1 style={{ fontSize: '70px' }} className="sm:text-7xl md:text-6xl lg:text-9xl font-bold text-white mb-12">DOCUMENTOS</h1>
+            <div className="space-y-2">
               <DocumentItem
                 title="INCOTERMS Nemtech"
                 image="/images/link.png"
@@ -72,6 +72,21 @@ export default function DocumentosPage() {
                 title="Tendencias del mercado"
                 image="/images/link.png"
                 url="https://drive.google.com/file/d/1YK6Vp-9rI3AaPu9H0aO3nq5DGTbDLfcw/view?usp=drive_link"
+              />
+              <DocumentItem
+                title="Estrategias de Marketing"
+                image="/images/link.png"
+                url="https://drive.google.com/file/d/1EfpUJ1ZY_TUdPVX5pVydz3rqGnQIIFpn/view?usp=drive_link"
+              />
+              <DocumentItem
+                title="Legiscomex, Requisitos"
+                image="/images/link.png"
+                url="https://drive.google.com/file/d/1pJcuzS90nR5AE_xstkRZQxRp5gdiVgNE/view?usp=drive_link"
+              />
+              <DocumentItem
+                title="Oportunidades de Mercado"
+                image="/images/link.png"
+                url="https://drive.google.com/file/d/1h3qEHCEELv3SGskFImcsR7IyVgpziWxT/view"
               />
             </div>
           </div>
